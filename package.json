@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AndersonOrtizDiasJunior/cse341-ex1/issues"
   },
-  "homepage": "https://github.com/AndersonOrtizDiasJunior/cse341-ex1#readme"
+  "homepage": "https://github.com/AndersonOrtizDiasJunior/cse341-ex1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
