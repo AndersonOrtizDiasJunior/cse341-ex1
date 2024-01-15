@@ -1,0 +1,19 @@
+{
+  "name": "cse341-ex1",
+  "version": "1.0.0",
+  "description": "My first assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AndersonOrtizDiasJunior/cse341-ex1.git"
+  },
+  "author": "Anderson Ortiz Dias Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersonOrtizDiasJunior/cse341-ex1/issues"
+  },
+  "homepage": "https://github.com/AndersonOrtizDiasJunior/cse341-ex1#readme"
+}
