@@ -1,0 +1,36 @@
+// Create
+### Create Contact
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Leroy",
+  "lastName": "Nieglins",
+  "email": "leroy@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1998-10-8"
+}
+
+// Read
+### Get all Contacts
+GET http://localhost:3000/users
+
+### Get one Contact
+GET http://localhost:3000/users/65a50716784a83f993e82371
+
+// Update
+### Update Contact
+PUT http://localhost:3000/users/65a66de4ce0b019cd216e0ec
+content-type: application/json
+
+{
+  "firstName": "Leroy",
+  "lastName": "Nieglins",
+  "email": "leroy@example.com",
+  "favoriteColor": "red",
+  "birthday": "1998-10-8"
+}
+
+// Delete
+### Delete Contact
+DELETE  http://localhost:3000/users/65a6706ea095bde8a7804b6c
